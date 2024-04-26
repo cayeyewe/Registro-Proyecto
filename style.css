@@ -1,0 +1,132 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.izquierda 
+{
+    background:#B0CFA3; 
+    height:  100vh;
+    width: 50%; 
+}
+
+.derecha{
+    background: url(IMAGEN/Logo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 70%;
+    height: 100vh;
+}
+
+#pantalla-dividida {
+display: flex;
+} 
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login-container {
+    display: flex;
+    width: 80%;
+    max-width: 800px;
+}
+
+.register {
+    flex: 1;
+    padding: 20px;
+    background: transparent; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    color: rgb(255, 255, 255); 
+    font-size: 60px;
+    width: 50%;
+}
+h3 {
+color:rgb(255, 255, 255);  
+font-size: 30px; 
+width: 70%;
+}
+
+form {
+    width: 100%;
+    max-width: 300px;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.submit {
+    background-color: #ff8c00; 
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#btn__registrarse {
+    background-color: #ff8c00; 
+    color: white; 
+    padding: 10px; 
+    border: none;
+    cursor: pointer;
+}
+
+#btn__registrarse:hover {
+    background-color: #ff9800; 
+}
+label {
+    color: white; 
+    margin-bottom: 
+    font-size20px; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto; 
+}
+
+.login-containerregister {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.izquierda {
+    background: #B0CFA3;
+    height: 100vh;
+    width: 50%;
+    position: relative; 
+}
+
+.izquierda {
+    background: #B0CFA3;
+    height: 100vh;
+    width: 50%;
+    position: relative; 
+}
+
+.login-containerregister {
+    position: absolute; 
+    top: 50%; 
+    left: 50px; 
+    transform: translateY(-50%); 
+}
+
+
